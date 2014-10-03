@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# HISTCONTROL='ignoreboth'
+HISTTIMEFORMAT='[%Y-%m-%d %H:%M:%S] '
+HISTFILESIZE=10000
+HISTSIZE="\$HISTFILESIZE"
+
+alias vi=vim
