@@ -1,0 +1,12 @@
+[user]
+        email = GITHUB_EMAIL
+        name = GITHUB_NAME
+
+[alias]
+        st = status
+
+[color]
+        ui = auto
+
+[push]
+	default = simple
