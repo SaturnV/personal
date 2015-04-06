@@ -5,4 +5,6 @@ HISTTIMEFORMAT='[%Y-%m-%d %H:%M:%S] '
 HISTFILESIZE=10000
 HISTSIZE="\$HISTFILESIZE"
 
+# vim
+export EDITOR=vim
 alias vi=vim
