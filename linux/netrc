@@ -1,7 +1,5 @@
 machine github.com
-login GITHUB_USER
-password GITHUB_PASSWORD
+login GITHUB_TOKEN
 
 machine api.github.com
-login GITHUB_USER
-password GITHUB_PASSWORD
+login GITHUB_TOKEN
