@@ -5,6 +5,11 @@ HISTTIMEFORMAT='[%Y-%m-%d %H:%M:%S] '
 HISTFILESIZE=10000
 HISTSIZE="\$HISTFILESIZE"
 
+if [[ -d "$HOME/.local/bin" ]]
+then
+  PATH="$PATH:$HOME/.local/bin"
+fi
+
 # vim
 export EDITOR=vim
 alias vi=vim
